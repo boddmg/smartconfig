@@ -4,8 +4,8 @@ FLAG = 100
 BASE = 100
 
 class Encoder(object):
-    def __init__(self, src_data):
-        self.dst_data = self.calculate(src_data)
+    def __init__(self):
+        pass
 
     def calculate(self, src_data = None):
         if src_data == None:
